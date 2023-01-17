@@ -1,0 +1,104 @@
+body{
+    background-color: bisque;
+}
+body#idclasspage{
+    background-color: olive;
+    font-size: 18px;
+} 
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 18px;
+    font-style: italic;
+}
+ol{
+    margin: 20px;
+    padding: 20px;
+    color: blueviolet;
+}
+
+
+
+
+/*Styles for the ID & class lecture*/
+#main-title{
+    color: tomato;
+    background: beige;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.section-Header{
+   color: white;
+   border: solid 1px pink;
+   padding: 40px 20px 10px;
+   text-align: center;
+   font-size: 1em;
+   font-weight: normal;
+}
+
+/* Styles for the descendant selectors*/
+.primary-box{
+    background-color: white;
+    border: solid 10px #333;
+    padding: 20px;
+}
+.secondary-box{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+.secondary-box p {
+    font-size: 18px;
+    font-style: normal;
+}
+.secondary-box p em {
+    color: #fc3fc3;
+}
+/*Style for the grouping selectors lecture*/
+
+#mainContainer {
+    width: 960px;
+    margin: 0 auto;
+}  
+
+.primary-box, .secondary-box {
+    margin: 30px 20px;
+}
+.inside-box{
+    border: solid 1px black;
+} 
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    border-bottom: solid 3px red;
+    padding: 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
